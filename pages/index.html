@@ -28,8 +28,19 @@
                     <li class="nav-item active">
                         <a href="#" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="tarefas.html" class="nav-link">Tarefas</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="tarefa.html"
+                            id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Tarefas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="tarefas.html"> Todas </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="tarefas.html"> Academicas </a>
+                            <a class="dropdown-item" href="tarefas.html"> Profissionais </a>
+                            <a class="dropdown-item" href="tarefas.html"> Pessoais </a>
+                        </div>
                     </li>  
                     <li class="nav-item">
                         <a href="perfil.html" class="nav-link">Perfil</a>
@@ -40,161 +51,6 @@
                 </span>
             </div>
     </nav>
-    <div class="row mt-4 ml-1 mr-1">
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Título Tarefa </h5>
-                    <p class="card-text">
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa...
-                        Descrição da tarefa... Descrição da tarefa...
-                    </p>
-                    <a href="#" class="btn btn-primary"
-                       data-toggle="modal" data-target="#ModalTarefas"> 
-                        Ver 
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Título Tarefa </h5>
-                    <p class="card-text">
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa...
-                        Descrição da tarefa... Descrição da tarefa...
-                    </p>
-                    <a href="#" class="btn btn-primary"
-                       data-toggle="modal" data-target="#ModalTarefas"> 
-                        Ver 
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Título Tarefa </h5>
-                    <p class="card-text">
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa...
-                        Descrição da tarefa... Descrição da tarefa...
-                    </p>
-                    <a href="#" class="btn btn-primary"
-                       data-toggle="modal" data-target="#ModalTarefas"> 
-                        Ver 
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row mt-4 ml-1 mr-1">
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Título Tarefa </h5>
-                    <p class="card-text">
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa...
-                        Descrição da tarefa... Descrição da tarefa...
-                    </p>
-                    <a href="#" class="btn btn-primary"
-                       data-toggle="modal" data-target="#ModalTarefas"> 
-                        Ver 
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Título Tarefa </h5>
-                    <p class="card-text">
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa...
-                        Descrição da tarefa... Descrição da tarefa...
-                    </p>
-                    <a href="#" class="btn btn-primary"
-                       data-toggle="modal" data-target="#ModalTarefas"> 
-                        Ver 
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Título Tarefa </h5>
-                    <p class="card-text">
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa... 
-                        Descrição da tarefa... Descrição da tarefa...
-                        Descrição da tarefa... Descrição da tarefa...
-                    </p>
-                    <a href="#" class="btn btn-primary"
-                       data-toggle="modal" data-target="#ModalTarefas"> 
-                        Ver 
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="ModalTarefas" tabindex="-1"
-        role="dialog" aria-labelledby="TituloModalTarefas" 
-        aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalTarefas"> 
-                            Título da Tarefa
-                        </h5>
-                        <button type="button" class="close"
-                            data-dismiss="modal" aria-label="Fechar">
-                                <span aria-hidden="true">
-                                    &times;
-                                </span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Conteúdo da tarefa... <br />
-                        Conteúdo da tarefa... <br />
-                        Conteúdo da tarefa... <br />
-                        Conteúdo da tarefa... <br />
-                        Conteúdo da tarefa... <br />
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary"
-                            data-dismiss="modal">
-                                Ok
-                        </button>
-                    </div>
-                </div>
-            </div>
-    </div>
+    
 </body>
 </html>
